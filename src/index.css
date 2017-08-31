@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header .row{
+	padding: 10px;
+    background: #53c1ff;
+    color: #ffffff;
+}  
+.header .row .col-lg-10{
+	padding: 0% 5%;
+} 
+.header .row .col-lg-10 a{
+	color: white;
+	text-decoration: none;
+}
+.signout button{
+	color: #7b7373;
+    background: #f9f6f6;
+} 
+.signout button:hover{
+	color: #ffffff;
+    background: #484848;
+}   
+.navbar{
+    background: #c5c5c5 !important;
+    height: 40px;
+    padding: 0% 4%;
+}
+.nav-link{
+    color: #777777 !important;
+}
+.nav-link:hover{
+	color:#656464 !important;
+    background: white;
+}
+.card{
+	max-width: 95vw !important;
+    height: 75vh;
+    margin: 1% 2%;
+
+}
+.about h4{
+	    color: #bdbbbb;
+    border-bottom: 2px solid #bdbbbb;
+    padding-bottom: 5px;
+}
+.commonpage{
+	text-align: justify;
+    margin: 1% 2%;
+    padding: 25px;
+    color: #8e8e8e;
+}
+.commonpage h2{
+	    color: #585a5a;
+    border-bottom: 2px solid #585a5a;
+    padding-bottom: 5px;
+
+}
+.signin,.signup{
+	    margin: 0px auto;
+    width: 25%;
+    border: 1px solid #b9b9b9;
+    padding: 20px;
+    margin-top: 10%;
+}
+.signin h2,.signup h2{
+	    color: #007bff;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 8px;
+}
+.directto{
+	text-align: center;
+    padding: 25px;
+    font-size: 19px;
+}
+.directto a{
+	color: black !important;
+}
+
+@media screen and (max-width:800px) and (min-width: 200px) {
+  
+  .signin{
+	
+    width: 100%;
+    border: 0px;
+    padding: 20px;
+    margin-top: 10%;
+}
+    }
